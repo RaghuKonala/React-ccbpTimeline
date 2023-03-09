@@ -1,0 +1,50 @@
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1140px;
+  height: 100vh;
+}
+.app-heading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.app-heading {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  line-height: 2.7;
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .app-heading {
+    font-size: 20px;
+  }
+}
+
+.app-heading-span {
+  color: #2b237c;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin: 0px;
+}
+@media screen and (min-width: 768px) {
+  .app-heading-span {
+    font-size: 30px;
+  }
+}
